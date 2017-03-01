@@ -1,17 +1,35 @@
-import Vue from 'vue'
+
+document.addEventListener('DOMContentLoaded', function (event) {
+    // your code goes here
+
+    new App.Index().init()
+
+})
+
+
 
 namespace App {
 
-    export class index {
+    export class Index {
+
+        message = 'hello vue from TS'
+        counter = 0
 
         constructor() {
 
+        }
+
+        greet(){
+            alert("Hello!")
+        }
+
+        init() {
             let xx = new Vue({
                 el: '#app',
-                data: {
-                    message: 'Hello Vue.js!'
-                }
+                data: this,
+                methods: this
             })
         }
+
     }
 }

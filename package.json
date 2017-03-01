@@ -1,0 +1,14 @@
+{
+    "name": "Demo",
+    "version": "0.0.0",
+    "description": "",
+    "scripts": {
+        "lite": "lite-server",
+        "start": "npm run lite"
+    },
+    "author": "",
+    "devDependencies": {
+        // https://www.npmjs.com/package/light-server
+        "lite-server": "^2.2.2"
+    }
+}

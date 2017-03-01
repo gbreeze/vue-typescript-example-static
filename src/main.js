@@ -1,17 +1,25 @@
-"use strict";
-var vue_1 = require("vue");
+document.addEventListener('DOMContentLoaded', function (event) {
+    // your code goes here
+    new App.Index().init();
+});
 var App;
 (function (App) {
-    var index = (function () {
-        function index() {
-            var xx = new vue_1["default"]({
-                el: '#app',
-                data: {
-                    message: 'Hello Vue.js!'
-                }
-            });
+    var Index = (function () {
+        function Index() {
+            this.message = 'hello vue from TS';
+            this.counter = 0;
         }
-        return index;
+        Index.prototype.greet = function () {
+            alert("Hello!");
+        };
+        Index.prototype.init = function () {
+            var xx = new Vue({
+                el: '#app',
+                data: this,
+                methods: this
+            });
+        };
+        return Index;
     }());
-    App.index = index;
+    App.Index = Index;
 })(App || (App = {}));

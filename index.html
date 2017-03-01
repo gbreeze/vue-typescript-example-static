@@ -1,0 +1,28 @@
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="src/main.js"></script>
+
+<h2>Hallo VUE</h2>
+
+<div id="app">
+
+  <p>{{ message }}</p>
+  <input type="text" v-model="message">
+
+  <hr>
+
+  <div id="example-1">
+    <button v-on:click="counter += 1">Add 1</button>
+    <p>The button above has been clicked {{ counter }} times.</p>
+  </div>
+
+  <hr>
+
+  <div id="example-2">
+    <!-- `greet` is the name of a method defined below -->
+    <button v-on:click="greet">Greet</button>
+  </div>
+
+
+
+  
+</div>
