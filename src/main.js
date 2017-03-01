@@ -1,5 +1,6 @@
+//// No module system is used - import is not supported.
+//// import Vue from 'vue'
 document.addEventListener('DOMContentLoaded', function (event) {
-    // your code goes here
     new App.Index().init();
 });
 var App;

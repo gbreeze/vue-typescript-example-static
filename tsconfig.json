@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         // ... other options omitted
-        // "module": "system",
+        "module": "none",
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "node",
         "lib": [

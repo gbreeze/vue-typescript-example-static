@@ -1,12 +1,9 @@
+//// No module system is used - import is not supported.
+//// import Vue from 'vue'
 
-document.addEventListener('DOMContentLoaded', function (event) {
-    // your code goes here
-
+document.addEventListener('DOMContentLoaded', event => {
     new App.Index().init()
-
 })
-
-
 
 namespace App {
 
@@ -19,11 +16,12 @@ namespace App {
 
         }
 
-        greet(){
+        greet() {
             alert("Hello!")
         }
 
         init() {
+            
             let xx = new Vue({
                 el: '#app',
                 data: this,
