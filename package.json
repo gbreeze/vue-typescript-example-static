@@ -1,12 +1,12 @@
 {
-    "name": "Demo",
-    "version": "0.0.0",
-    "description": "",
+    "name": "vue-typescript-example-static",
+    "version": "0.0.1",
+    "description": "Simple static vue integration with typescript - (no module system)",
     "scripts": {
         "lite": "lite-server",
         "start": "npm run lite"
     },
-    "author": "",
+    "author": "George Breeze",
     "devDependencies": {
         "lite-server": "^2.2.2"
     },
