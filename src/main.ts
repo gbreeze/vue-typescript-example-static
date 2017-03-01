@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', event => {
 
 namespace App {
 
-    export function initVue(id: string, viewModel: Object) {
+    export function initVue(selector: string, viewModel: Object) {
         let v = new Vue({
-            el: id,
+            el: selector,
             data: viewModel,
             methods: viewModel
         })

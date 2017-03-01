@@ -9,9 +9,8 @@ typings not working - help wanted ;-)
  - press `ctrl+shift+B` to build the typescript in vscode
  - `npm start` to start the web server
 
-
  ### Misc
+ - <https://github.com/itsFrank/vue-typescript>
+ - <https://www.typescriptlang.org/docs/handbook/modules.html>
+ - <https://www.typescriptlang.org/docs/handbook/module-resolution.html>
 
-  - <https://www.typescriptlang.org/docs/handbook/modules.html>
-  - <https://www.typescriptlang.org/docs/handbook/module-resolution.html>
-  
