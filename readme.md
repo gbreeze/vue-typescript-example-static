@@ -8,3 +8,10 @@ typings not working - help wanted ;-)
  - `npm install` to install the nugget packages
  - press `ctrl+shift+B` to build the typescript in vscode
  - `npm start` to start the web server
+
+
+ ### Misc
+
+  - <https://www.typescriptlang.org/docs/handbook/modules.html>
+  - <https://www.typescriptlang.org/docs/handbook/module-resolution.html>
+  

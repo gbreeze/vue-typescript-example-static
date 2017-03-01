@@ -1,28 +1,27 @@
 <script src="node_modules/vue/dist/vue.min.js"></script>
 <script src="src/main.js"></script>
+<link rel="stylesheet" href="src/main.css">
 
 <h2>Hallo VUE</h2>
 
-<div id="app">
+<!-- https://vuejs.org/v2/api/#v-cloak -->
+<div v-cloak id="app">
 
-  <p>{{ message }}</p>
-  <input type="text" v-model="message">
+    <p>{{ message }}</p>
+    <input type="text" v-model="message">
 
-  <hr>
+    <hr>
 
-  <div id="example-1">
-    <button v-on:click="counter += 1">Add 1</button>
-    <p>The button above has been clicked {{ counter }} times.</p>
-  </div>
+    <div id="example-1">
+        <button v-on:click="counter += 1">Add 1</button>
+        <p>The button above has been clicked {{ counter }} times.</p>
+    </div>
 
-  <hr>
+    <hr>
 
-  <div id="example-2">
-    <!-- `greet` is the name of a method defined below -->
-    <button v-on:click="greet">Greet</button>
-  </div>
-
-
-
+    <div id="example-2">
+        <!-- `greet` is the name of a method defined below -->
+        <button v-on:click="greet">Greet</button>
+    </div>
 
 </div>

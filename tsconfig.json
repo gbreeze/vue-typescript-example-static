@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        // ... other options omitted
         "module": "none",
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "node",

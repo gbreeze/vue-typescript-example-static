@@ -20,6 +20,7 @@ namespace App {
         counter = 0
 
         constructor() {
+
         }
 
         greet() {
