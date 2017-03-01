@@ -2,32 +2,28 @@
 //// import Vue from 'vue'
 
 document.addEventListener('DOMContentLoaded', event => {
-    new App.Index().init()
+    App.initVue('#app', new App.Index())
 })
 
 namespace App {
 
-    export class Index {
+    export function initVue(id: string, viewModel: Object) {
+        let v = new Vue({
+            el: id,
+            data: viewModel,
+            methods: viewModel
+        })
+    }
 
+    export class Index {
         message = 'hello vue from TS'
         counter = 0
 
         constructor() {
-
         }
 
         greet() {
             alert("Hello!")
         }
-
-        init() {
-            
-            let xx = new Vue({
-                el: '#app',
-                data: this,
-                methods: this
-            })
-        }
-
     }
 }
