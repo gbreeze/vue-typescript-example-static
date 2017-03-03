@@ -1,5 +1,15 @@
 {
     "compilerOptions": {
+        "target": "es5",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+
+        "outDir": "dist",
+        "outFile": "dist/bundle.js",
+
         "module": "none",
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "node",

@@ -1,16 +1,17 @@
 {
-    "name": "vue-typescript-example-static",
-    "version": "0.0.1",
-    "description": "Simple static vue integration with typescript - (no module system)",
-    "scripts": {
-        "lite": "lite-server",
-        "start": "npm run lite"
-    },
-    "author": "George Breeze",
-    "devDependencies": {
-        "lite-server": "^2.2.2"
-    },
-    "dependencies": {
-        "vue": "^2.2.1"
-    }
+  "name": "vue-typescript-example-static",
+  "version": "0.0.1",
+  "description": "Simple static vue integration with typescript - (no module system)",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "author": "George Breeze",
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "dependencies": {
+    "vue": "^2.2.1",
+    "vue-typescript": "^0.7.0"
+  }
 }
